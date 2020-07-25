@@ -1,0 +1,13 @@
+This will display the output in the format
+ of "filename: line that matching
+the pattern". You can also pass the 
+option -l, which will display only the
+name of the file that matches the pattern.
+
+Nov 10 01:12:55 gs123 ntpd[2241]: time reset +0.177479 s
+Nov 10 01:17:17 gs123 ntpd[2241]: synchronized to LOCAL(0), stratum 10
+Nov 10 01:18:49 gs123 ntpd[2241]: synchronized to 15.1.13.13, stratum 3
+
+Nov 10 13:21:26 gs123 ntpd[2241]: time reset +0.146664 s
+Nov 10 13:25:46 gs123 ntpd[2241]: synchronized to LOCAL(0), stratum 10
+Nov 10 13:26:27 gs123 ntpd[2241]: synchronized to 15.1.13.13, stratum 3

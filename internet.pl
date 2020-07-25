@@ -9,16 +9,13 @@ my $pattern = <STDIN>;
 sub main
 {
 my $file = "C:/SPB_Data/script/vlsi_pro/test"; 
-    open(test, $file) or die("File $file not found");
+open(test, $file) or die("File $file not found");
 
 while (<test>) {
-	#chomp($cell_flow);
 	if ($p == 0 && m/\Q$pattern/){
 		$p=1;
 		$c=$. + 120;
-		#print "dedededed\n"
 	}
-
 	if ($p == 1) {
 		if ($. < $c ) {
 			$pin = $_;
